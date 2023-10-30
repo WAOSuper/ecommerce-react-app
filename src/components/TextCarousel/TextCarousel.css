@@ -1,0 +1,27 @@
+.text-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.carousel-item {
+  opacity: 1;
+  transition: opacity 0.3s;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.carousel-item.animate {
+  opacity: 0;
+}
+
+.carousel-controls {
+  margin: 0 10px;
+}
+
+.prev-button,
+.next-button {
+  font-size: 24px;
+  cursor: pointer;
+}
